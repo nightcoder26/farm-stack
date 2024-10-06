@@ -1,0 +1,34 @@
+# General files and directories
+*.DS_Store
+Thumbs.db
+*.pyc
+*.pyo
+__pycache__
+*.swp
+*.bak
+*~
+npm-debug.log
+yarn-error.log
+coverage
+
+# Specific to Python projects
+venv
+*.egg-info
+*.egg
+dist
+build
+tests
+*.pytest_cache
+
+# Specific to Docker projects
+docker-compose.yml
+docker-compose.override.yml
+.dockerenv
+docker.sock
+docker-compose-local.yml
+
+# Sensitive data
+.env
+
+# Specific to Nginx
+nginx.conf
